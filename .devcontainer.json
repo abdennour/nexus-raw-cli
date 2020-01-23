@@ -17,6 +17,8 @@
       "vscode",
       "--cap-add=SYS_PTRACE",
       "--security-opt",
-      "seccomp=unconfined"
+      "seccomp=unconfined",
+      "--net",
+      "nexus_default"
   ]
 }
